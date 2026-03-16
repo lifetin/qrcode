@@ -317,10 +317,10 @@ npm start
 npm install -g wrangler
 
 # 登录 Cloudflare
-wrangler auth login
+wrangler login
 
 # 部署到 Cloudflare Pages
-wrangler pages publish .
+wrangler pages publish . --project-name=qrcode-generator
 ```
 
 ## 📄 许可证
