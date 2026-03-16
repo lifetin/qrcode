@@ -323,6 +323,20 @@ wrangler login
 wrangler pages publish . --project-name=qrcode-generator
 ```
 
+
+### 控制台布署
+
+### 选择正确的项目类型
+在 Cloudflare 控制台中：
+
+1. 进入 Pages 部分（不是 Workers）
+2. 点击 "Create a project"
+3. 连接你的 GitHub 仓库
+4. 确保选择的是 Pages 项目，而不是 Worker
+
+
+
+
 ## 📄 许可证
 
 MIT License - 详见 [LICENSE](LICENSE) 文件。

@@ -37,8 +37,9 @@ app.get('/qrcode', async (req, res) => {
   const label = req.query.label || '';
 
   if (!data) {
-    return res.status(400).send('请提供要生成二维码的内容，例如：/qrcode?data=https://example.com');
+    return res.status(400).send('请提供要生成二维码的内容');
   }
+  data = decodeURIComponent(data);
 
   try {
     let qrImageBuffer;
