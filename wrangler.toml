@@ -1,5 +1,2 @@
-name = "qrcode-generator"
+name = "qrcode"
 compatibility_date = "2023-06-07"
-
-[pages]
-directory = "."
