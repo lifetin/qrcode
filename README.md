@@ -306,6 +306,12 @@ npm start
 
 ### Cloudflare 部署
 
+#### 一键部署到 Cloudflare Pages
+
+[![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/thinkgin/qrcode)
+
+#### 手动部署
+
 ```bash
 # 安装 Wrangler CLI
 npm install -g wrangler
